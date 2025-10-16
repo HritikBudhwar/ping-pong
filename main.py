@@ -34,7 +34,7 @@ def main():
 
         pygame.display.flip()
         clock.tick(FPS)
-
+        engine.check_game_over(SCREEN)
     pygame.quit()
 
 if __name__ == "__main__":
